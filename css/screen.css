@@ -219,6 +219,7 @@ a:focus {
 
 .o-layout--gutter > .o-layout__item {
     padding: 0 12px;
+    box-sizing: border-box;
 }
 
 .o-layout--gutter-sm {
@@ -404,6 +405,31 @@ a:focus {
 .u-5-of-6 {
     flex-basis: calc(100%/6*5) !important;
 }
+
+.u-1-of-2-bp1 {
+    flex-basis: calc(100%/2) !important;
+}
+
+.u-1-of-2-bp2 {
+    flex-basis: calc(100%/2) !important;
+}
+
+.u-1-of-3-bp3 {
+    flex-basis: calc(100%/3) !important;
+}
+
+.u-1-of-4-bp4 {
+    flex-basis: calc(100%/4) !important;
+}
+
+.u-1-of-5-bp5 {
+    flex-basis: calc(100%/5) !important;
+}
+
+.u-1-of-6-bp6 {
+    flex-basis: calc(100%/6) !important;
+}
+
 
 @media (min-width: 576px) {
     .u-1-of-2-bp1 {}
