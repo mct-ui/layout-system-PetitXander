@@ -240,41 +240,70 @@ a:focus {
 
 /* reverse horizontal row modifier */
 
-.o-layout--row-reverse {}
+.o-layout--row-reverse {
+    flex-direction: row-reverse;
+}
 
 /* Horizontal alignment modifiers*/
 
 .o-layout--justify-start {}
 
-.o-layout--justify-end {}
+.o-layout--justify-end{
+    flex-direction: row-reverse;
+}
 
-.o-layout--justify-center {}
+.o-layout--justify-center {
+    justify-content: center;
+}
 
-.o-layout--justify-space-around {}
+.o-layout--justify-space-around {
+    justify-content: space-around;
 
-.o-layout--justify-space-between {}
+}
+
+.o-layout--justify-space-between {
+    justify-content: space-between;
+}
+
+.o-layout--justify-space-evenly {
+    justify-content: space-evenly;
+}
 
 /* Vertical item alignment modifiers */
 
 .o-layout--align-start {}
 
-.o-layout--align-end {}
+.o-layout--align-end {
+    align-items: flex-end;
+}
 
-.o-layout--align-center {}
+.o-layout--align-center {
+    align-items: center;
+}
 
 .o-layout--align-baseline {}
 
 /* Vertical content alignment modifiers. Only work if there is one than one flex item */
 
-.o-layout--align-content-start {}
+.o-layout--align-content-start {
+    align-content: start;
+}
 
-.o-layout--align-content-end {}
+.o-layout--align-content-end {
+    align-content: end;
+}
 
-.o-layout--align-content-center {}
+.o-layout--align-content-center {
+    align-content: center;
+}
 
-.o-layout--align-content-space-around {}
+.o-layout--align-content-space-around {
+    align-content: space-around;
+}
 
-.o-layout--align-content-space-between {}
+.o-layout--align-content-space-between {
+    align-content: space-between;
+}
 
 
 /*------------------------------------*\
@@ -337,6 +366,10 @@ a:focus {
 
 .u-max-width-none {
     max-width: none;
+}
+
+.u-width-auto{
+    max-width: auto;
 }
 
 /*
@@ -428,6 +461,11 @@ a:focus {
 
 .u-1-of-6-bp6 {
     flex-basis: calc(100%/6) !important;
+}
+
+.u-1-of-4-bp2 {
+    flex-basis: calc(100%/4) !important;
+    
 }
 
 
